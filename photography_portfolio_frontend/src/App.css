@@ -1,21 +1,21 @@
 /* CSS Variables for Photography Portfolio Theme */
 :root {
-  /* Light theme colors */
+  /* Light theme colors (Updated to design specs) */
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --bg-accent: #f1f1f1;
-  --text-primary: #2c2c2c;
+  --text-primary: #222222;
   --text-secondary: #666666;
   --text-light: #999999;
   --border-color: #e0e0e0;
-  --button-bg: #2c2c2c;
+  --button-bg: #222222;
   --button-text: #ffffff;
-  --accent-color: #ff6b35;
+  --accent-color: #ffd700;
   --overlay-bg: rgba(255, 255, 255, 0.95);
 }
 
 [data-theme="dark"] {
-  /* Dark theme colors */
+  /* Dark theme colors (Maintain white text, but buttons/accents as per design specs) */
   --bg-primary: #1a1a1a;
   --bg-secondary: #2c2c2c;
   --bg-accent: #333333;
@@ -23,9 +23,9 @@
   --text-secondary: #cccccc;
   --text-light: #888888;
   --border-color: #404040;
-  --button-bg: #ffffff;
-  --button-text: #1a1a1a;
-  --accent-color: #ff6b35;
+  --button-bg: #222222;
+  --button-text: #ffffff;
+  --accent-color: #ffd700;
   --overlay-bg: rgba(26, 26, 26, 0.95);
 }
 
